@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import Footer from './Footer'
 
 function App() {
+  const nome = 'Wisner'
   return (
     <div>
       <header>
@@ -12,7 +13,7 @@ function App() {
       <main>
         <Outlet />
       </main>
-      <Footer />
+      <Footer nome={nome} />
     </div>
   )
 }

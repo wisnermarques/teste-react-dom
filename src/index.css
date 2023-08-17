@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
-a i:hover{
+i {
+  color: #fff;
+}
+
+i:hover {
   color: #00ccff;
 }
