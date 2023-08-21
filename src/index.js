@@ -13,12 +13,12 @@ import Sobre from './Sobre'
 import Contato from './Contato'
 import Home from './Home'
 
-const listaTarefas = [
-  { id: 1, nome: 'Estudar HTML' },
-  { id: 2, nome: 'Estudar CSS' },
-  { id: 3, nome: 'Estudar Javascript' },
-  { id: 4, nome: 'Estudar React' },
-]
+// const listaTarefas = [
+//   { id: 1, nome: 'Estudar HTML' },
+//   { id: 2, nome: 'Estudar CSS' },
+//   { id: 3, nome: 'Estudar Javascript' },
+//   { id: 4, nome: 'Estudar React' },
+// ]
 
 const router = createBrowserRouter([
   {
@@ -27,7 +27,7 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home lista={listaTarefas} />,
+        element: <Home />,
       },
       {
         path: '/sobre',

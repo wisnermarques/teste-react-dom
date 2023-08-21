@@ -1,0 +1,32 @@
+{
+  "tarefas": [
+    {
+      "id": 1,
+      "nome": "Estudar HTML"
+    },
+    {
+      "id": 2,
+      "nome": "Estudar CSS"
+    },
+    {
+      "id": 3,
+      "nome": "Estudar Javascript"
+    },
+    {
+      "id": 4,
+      "nome": "Estudar React"
+    },
+    {
+      "nome": "Teste",
+      "id": 5
+    },
+    {
+      "nome": "Fazer lista de exercícios",
+      "id": 6
+    },
+    {
+      "nome": "Nova tarefa",
+      "id": 7
+    }
+  ]
+}

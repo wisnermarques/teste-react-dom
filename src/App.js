@@ -5,6 +5,7 @@ import Footer from './Footer'
 
 function App() {
   const nome = 'Wisner'
+  const ano = 2023
   return (
     <div>
       <header>
@@ -13,7 +14,7 @@ function App() {
       <main>
         <Outlet />
       </main>
-      <Footer nome={nome} />
+      <Footer nome={nome} ano={ano} />
     </div>
   )
 }

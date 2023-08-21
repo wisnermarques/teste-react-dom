@@ -1,6 +1,6 @@
 import './Footer.css'
 
-function Footer({ nome }) {
+function Footer({ nome, ano }) {
   return (
     <footer className='bg-dark p-4 fixed-bottom text-center text-white'>
       <a href='https://www.facebook.com' target='_blank' rel='noreferrer'>
@@ -20,7 +20,7 @@ function Footer({ nome }) {
       </a>
 
       <h4>
-        Desenvolvidor por &copy; <span id='nome'>{nome}</span>
+        Desenvolvidor por &copy; <span id='nome'>{nome}</span> - {ano}
       </h4>
     </footer>
   )

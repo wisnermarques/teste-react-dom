@@ -1,6 +1,6 @@
 function Sobre() {
   return (
-    <div>
+    <div className='container mt-2'>
       <h1>Página Sobre!</h1>
     </div>
   )
