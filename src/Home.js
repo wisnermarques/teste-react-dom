@@ -59,7 +59,7 @@ function Home() {
       ) : (
         <>
           <h2>Lista de tarefas:</h2>
-          <ExibirTarefas tarefas={tarefas} />
+          <ExibirTarefas tarefas={tarefas} setTarefas={setTarefas} />
           <hr />
           <h2>Adicionar tarefa:</h2>
           <form onSubmit={addTarefa}>

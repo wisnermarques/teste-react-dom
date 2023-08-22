@@ -12,6 +12,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Sobre from './Sobre'
 import Contato from './Contato'
 import Home from './Home'
+import Editar from './Editar'
 
 // const listaTarefas = [
 //   { id: 1, nome: 'Estudar HTML' },
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home />,
+      },
+      {
+        path: '/:id',
+        element: <Editar />,
       },
       {
         path: '/sobre',
