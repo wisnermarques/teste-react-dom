@@ -2,12 +2,11 @@ import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
 import tarefaService from './services/tarefas'
+import Botao from './components/Botao'
 
 function Editar() {
   const { id } = useParams()
-  const navigate = useNavigate() // Inicializa o useHistory
-
-  const nome = ''
+  const navigate = useNavigate() // Inicializa o useNavegate
 
   const [tarefaEditada, setTarefaEditada] = useState('')
 
@@ -18,7 +17,7 @@ function Editar() {
         setTarefaEditada(response.data.nome)
       })
       .catch((err) => console.log(err))
-  }, [id, nome])
+  }, [id])
 
   const handleTarefaChange = (event) => {
     console.log(event.target.value)
@@ -55,9 +54,7 @@ function Editar() {
             onChange={handleTarefaChange}
           />
         </div>
-        <button type='submit' className='btn btn-dark'>
-          Editar
-        </button>
+        <Botao text='Editar' />
       </form>
     </div>
   )

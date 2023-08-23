@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import ExibirTarefas from './ExibirTarefas'
 
 import tarefaService from './services/tarefas'
+import Botao from './components/Botao'
 
 function Home() {
   const [tarefas, setTarefas] = useState([])
@@ -44,12 +45,9 @@ function Home() {
       setTarefas(tarefas.concat(response.data))
       setTarefa('')
     })
-
-    console.log('botão clicado', event.target)
   }
 
   const handleTarefaChange = (event) => {
-    console.log(event.target.value)
     setTarefa(event.target.value)
   }
   return (
@@ -74,9 +72,7 @@ function Home() {
                 onChange={handleTarefaChange}
               />
             </div>
-            <button type='submit' className='btn btn-dark'>
-              Adicionar
-            </button>
+            <Botao text='Adicionar' />
           </form>
         </>
       )}

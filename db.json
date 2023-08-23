@@ -5,16 +5,16 @@
       "nome": "Estudar HTML"
     },
     {
-      "nome": "Estudar CSS Editado",
+      "nome": "Estudar CSS",
       "id": 2
     },
     {
-      "id": 3,
-      "nome": "Estudar Javascript"
+      "nome": "Estudar Javascript",
+      "id": 3
     },
     {
-      "id": 4,
-      "nome": "Estudar React"
+      "nome": "Estudar React",
+      "id": 4
     },
     {
       "nome": "Estudar Express",
