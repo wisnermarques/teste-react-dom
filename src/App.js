@@ -7,11 +7,11 @@ function App() {
   const nome = 'Wisner'
   const ano = 2023
   return (
-    <div>
+    <div style={{ height: '100vh' }}>
       <header>
         <Navbar />
       </header>
-      <main>
+      <main className='h-75 overflow-y-auto'>
         <Outlet />
       </main>
       <Footer nome={nome} ano={ano} />

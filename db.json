@@ -19,6 +19,38 @@
     {
       "nome": "Estudar Express",
       "id": 5
+    },
+    {
+      "nome": "Teste",
+      "id": 6
+    },
+    {
+      "nome": "Nova tarefa",
+      "id": 7
+    },
+    {
+      "nome": "Outra tarefa",
+      "id": 8
+    },
+    {
+      "nome": "Testando tarefas adicionadas",
+      "id": 9
+    },
+    {
+      "nome": "Outra tarefa de teste",
+      "id": 10
+    },
+    {
+      "nome": "Colocando mais tarefas",
+      "id": 11
+    },
+    {
+      "nome": "Evento Senac",
+      "id": 12
+    },
+    {
+      "nome": "Nova tarefa teste",
+      "id": 13
     }
   ]
 }

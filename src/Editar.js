@@ -20,7 +20,6 @@ function Editar() {
   }, [id])
 
   const handleTarefaChange = (event) => {
-    console.log(event.target.value)
     setTarefaEditada(event.target.value)
   }
 
