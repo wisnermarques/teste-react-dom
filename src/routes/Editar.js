@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
 import { useNavigate, useParams } from 'react-router-dom'
 
-import tarefaService from './services/tarefas'
-import Botao from './components/Botao'
+import tarefaService from '../services/tarefas'
+import Botao from '../components/Botao'
 
 function Editar() {
   const { id } = useParams()

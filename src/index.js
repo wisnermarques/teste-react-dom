@@ -12,7 +12,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Sobre from './Sobre'
 import Contato from './Contato'
 import Home from './Home'
-import Editar from './Editar'
+import Editar from './routes/Editar'
 
 // const listaTarefas = [
 //   { id: 1, nome: 'Estudar HTML' },

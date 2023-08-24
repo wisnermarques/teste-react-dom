@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react'
-import ExibirTarefas from './ExibirTarefas'
+import ExibirTarefas from '../ExibirTarefas'
 
-import tarefaService from './services/tarefas'
-import Botao from './components/Botao'
+import tarefaService from '../services/tarefas'
+import Botao from '../components/Botao'
 
 function Home() {
   const [tarefas, setTarefas] = useState([])
