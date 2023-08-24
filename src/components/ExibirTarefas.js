@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import tarefaService from './services/tarefas'
+import tarefaService from '../services/tarefas'
 
 import './ExibirTarefas.css'
 

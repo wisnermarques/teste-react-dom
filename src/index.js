@@ -9,9 +9,9 @@ import './index.css'
 //1- configurando router
 
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Sobre from './Sobre'
-import Contato from './Contato'
-import Home from './Home'
+import Sobre from './routes/Sobre'
+import Contato from './routes/Contato'
+import Home from './routes/Home'
 import Editar from './routes/Editar'
 
 // const listaTarefas = [

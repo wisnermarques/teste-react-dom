@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import ExibirTarefas from '../ExibirTarefas'
+import ExibirTarefas from '../components/ExibirTarefas'
 
 import tarefaService from '../services/tarefas'
 import Botao from '../components/Botao'
