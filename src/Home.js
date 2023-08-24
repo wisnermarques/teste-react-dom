@@ -37,7 +37,7 @@ function Home() {
 
     const tarefaObject = {
       nome: tarefa,
-      id: tarefas.length + 1,
+      //id: tarefas.length + 1,
     }
 
     // setTarefas(tarefas.concat(tarefaObject))
@@ -67,6 +67,7 @@ function Home() {
               </label>
               <input
                 type='text'
+                placeholder='Digite a tarefa...'
                 className='form-control'
                 value={tarefa}
                 onChange={handleTarefaChange}
