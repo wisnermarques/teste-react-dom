@@ -1,5 +1,52 @@
 {
   "tarefas": [
-    
+    {
+      "id": 1,
+      "nome": "Estudar HTML"
+    },
+    {
+      "nome": "Estudar CSS",
+      "id": 2
+    },
+    {
+      "nome": "Estudar Javascript",
+      "id": 3
+    },
+    {
+      "nome": "Estudar React",
+      "id": 4
+    },
+    {
+      "nome": "Estudar Express",
+      "id": 5
+    },
+    {
+      "nome": "Nova tarefa",
+      "id": 7
+    },
+    {
+      "nome": "Outra tarefa",
+      "id": 8
+    },
+    {
+      "nome": "Testando tarefas adicionadas",
+      "id": 9
+    },
+    {
+      "nome": "Outra tarefa de teste",
+      "id": 10
+    },
+    {
+      "nome": "Evento Senac",
+      "id": 12
+    },
+    {
+      "nome": "Nova tarefa teste",
+      "id": 13
+    },
+    {
+      "nome": "Testando adição de tarefa",
+      "id": 14
+    }
   ]
 }
