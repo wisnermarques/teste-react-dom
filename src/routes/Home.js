@@ -58,7 +58,7 @@ function Home() {
   return (
     <div className='container mt-2'>
       {erro ? (
-        <p>{erro}</p>
+        <p className='alert alert-warning'>{erro}</p>
       ) : (
         <>
           {isLoading ? (

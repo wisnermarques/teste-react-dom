@@ -33,13 +33,13 @@ function ExibirTarefas({ tarefas, setTarefas }) {
   if (tarefas.length === 0) {
     return (
       <div>
-        <p>Não existem tarefas a serem exibidas!</p>
+        <p className='alert alert-warning'>Não existem tarefas a serem exibidas!</p>
       </div>
     )
   }
 
   return (
-    <div>
+    <div className='container'>
       <ul>
         {tarefas.map((tarefa) => (
           <li key={tarefa.id}>
@@ -57,7 +57,7 @@ function ExibirTarefas({ tarefas, setTarefas }) {
       </ul>
 
       {showConfirmation && (
-        <div className='modal container'>
+        <div className='modal'>
           <div className='modal-content'>
             <h4>Realmente deseja excluir?</h4>
             <button onClick={confirmDelete}>Sim</button>
